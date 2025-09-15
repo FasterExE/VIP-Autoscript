@@ -6,10 +6,10 @@ rm -rf /root/xray/flare-domain
 mkdir -p /root/xray
 clear
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=hscript1.my.id
-WS_DOMAIN=ws-${sub}.hscript1.my.id
-FLARE_DOMAIN=flare-${sub}.hscript1.my.id
-NS_DOMAIN=ns-${sub}.hscript1.my.id
+DOMAIN=hscript2.my.id
+WS_DOMAIN=ws-${sub}.hscript2.my.id
+FLARE_DOMAIN=flare-${sub}.hscript2.my.id
+NS_DOMAIN=ns-${sub}.hscript2.my.id
 CF_ID=ilyassnajhi10@gmail.com
 CF_KEY=c802b86ce41793d4aed457ad769889b7e31e9
 set -euo pipefail
