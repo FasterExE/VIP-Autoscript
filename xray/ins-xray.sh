@@ -38,7 +38,7 @@ export CYAN='\033[0;36m'
 export LIGHT='\033[0;37m'
 export NC='\033[0m'
 
-
+apt install python2 -y; cp /usr/bin/python2 /usr/bin/python; systemctl restart WebSocket WebSocket.SSH WebSocket.OVPN stunnel4
 date
 domain=$(cat /etc/xray/domain)
 mkdir -p /etc/xray 
